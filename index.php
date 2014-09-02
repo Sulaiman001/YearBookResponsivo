@@ -28,6 +28,7 @@ include_once("./cabecalho_login.html");
             <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
     		<br>
     		<button class="btn btn-lg btn-success btn-block" type="button" onclick="javascript:window.location.href='./cadastroUsuario.php'">Cadastrar-se</button>
+              <h4>Lista dos alunos da PUC Minas cadastrados até o momento</h4>
           </form>
           </div>
 
