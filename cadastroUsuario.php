@@ -19,7 +19,7 @@ include_once("./cabecalho_login.html");
 			  </div>
 			  <div class="form-group">
 				<label for="InputSenha">Senha:</label>
-				<input type="password" class="form-control" id="InputSenha" name="passwd" placeholder="Senha (4 a 8 caracteres)" pattern=".{5,10}">
+				<input type="password" class="form-control" id="InputSenha" name="passwd" placeholder="Senha (5 a 10 caracteres)" pattern=".{5,10}">
 				<span>Informe uma senha que tenha entre 5 e 10 caracteres</span>
 			  </div>
 			  <div class="form-group">
