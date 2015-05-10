@@ -19,7 +19,7 @@ include_once("./cabecalho_login.html");
 			  </div>
 			  <div class="form-group">
 				<label for="InputSenha">Senha:</label>
-				<input type="password" class="form-control" id="InputSenha" name="passwd" placeholder="Senha (4 a 8 caracteres)">
+				<input type="password" class="form-control" id="InputSenha" name="passwd" placeholder="Senha (4 a 8 caracteres)" pattern=".{5,10}">
 			  </div>
 			  <div class="form-group">
 				<label for="InputSenhaConf">Confirmação de Senha:</label>
