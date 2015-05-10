@@ -1,15 +1,15 @@
 <?php
  function conn_mysql(){
 
-   	$servidor = 'localhost';
+   	$servidor = 'br-cdbr-azure-south-a.cloudapp.net';
    
 	$porta = 3306;
    
-	$banco = "daw_yearbook";
+	$banco = "yearbook";
    
-	$usuario = "root";
+	$usuario = "bd8b26c716bb15";
    
-	$senha = "root";
+	$senha = "bbc48fa6";
    
 	try{
      
