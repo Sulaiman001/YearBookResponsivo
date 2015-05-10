@@ -65,7 +65,8 @@ try
         $cidade = utf8_encode(htmlspecialchars($_POST['cidade']));		
 		
 		if(($senha!=$senhaConf)||(strlen($senha)<4)||(strlen($senha)>8)){
-		header("Location:./erroCadastro.php");
+			$e = "Senha precisa ter entre 4 e 8 caracteres";
+			header("Location:./erroCadastro.php");
 		die();
 		}
 		

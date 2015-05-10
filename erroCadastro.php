@@ -10,6 +10,7 @@ echo "<br>";
 			 echo "<div class=\"jumbotron\">";
 			 echo "<h3>Problemas no cadastro por favor corrija e tente novamente.</h1>\n";
 			 echo "<p class=\"lead\"><a href=\"./index.php\">Página principal</a></p>\n";
+			 echo "<p>Erro encontrado: ".$e."</p>";
 			 echo "</div>";
 
 ?>
